@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container-fluid" style="z-index: 999999;">
+      <!-- Меню при прокрутке -->
+      <div class="container-fluid fixed_menu d-none d-md-block">
+        <nav class="navbar navbar-expand-md navbar-dark col-12" id="hidden_block">
+          <div class="container d-none d-lg-block">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-brand col-lg-2 col-md-1" href="#">
+                <img src="img/scales.png" alt="Buriansky and partners">
+              </div>
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">О бюро</a>
+                <a class="nav-item nav-link" href="#">Услуги</a>
+                <a class="nav-item nav-link" href="#">Прайс</a>
+                <a class="nav-item nav-link" href="#">Опыт</a>
+                <a class="nav-item nav-link" href="#">Публикации</a>
+                <a class="nav-item nav-link" href="#">Контакты</a>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-block d-lg-none">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-brand col-lg-2 col-md-1" href="#">
+                <img src="img/scales.png" alt="Buriansky and partners">
+              </div>
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">О бюро</a>
+                <a class="nav-item nav-link" href="#">Услуги</a>
+                <a class="nav-item nav-link" href="#">Прайс</a>
+                <a class="nav-item nav-link" href="#">Опыт</a>
+                <a class="nav-item nav-link" href="#">Публикации</a>
+                <a class="nav-item nav-link" href="#">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Языковые версии сайта -->
+      <div class="language_links d-none d-md-block">
+        <a href="#" class="active">RU</a>
+        <p>/</p>
+        <a href="#" class="">UK</a>
+        <p>/</p>
+        <a href="#" class="">EN</a>
+      </div>
+      <!-- Меню на маленьком экране -->
+      <div class="container container_top col-12 d-block d-lg-none">
+        <div class="row">
+          <nav class="navbar navbar-expand-md navbar-dark col-12">
+            <a class="navbar-brand" href="#">
+              <img src="img/Logo.png" alt="Buriansky and partners" class="d-none d-md-block">
+              <img src="img/scales.png" alt="Buriansky and partners" class="d-block d-md-none">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">О бюро</a>
+                <a class="nav-item nav-link" href="#">Услуги</a>
+                <a class="nav-item nav-link" href="#">Прайс</a>
+                <a class="nav-item nav-link" href="#">Опыт</a>
+                <a class="nav-item nav-link" href="#">Публикации</a>
+                <a class="nav-item nav-link" href="#">Контакты</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Меню на большом екране -->
+      <div class="container container_top d-none d-lg-block">
+        <nav class="navbar navbar-expand-md navbar-dark col-12">
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo.png" alt="Buriansky and partners">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Главная <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">О бюро</a>
+              <a class="nav-item nav-link" href="#">Услуги</a>
+              <a class="nav-item nav-link" href="#">Прайс</a>
+              <a class="nav-item nav-link" href="#">Опыт</a>
+              <a class="nav-item nav-link" href="#">Публикации</a>
+              <a class="nav-item nav-link" href="#">Контакты</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- 1 Секция -->
+    <div class="first_section">
+      <div class="container">
+        <div class="row">
+          <div class="first_title">
+            <h1>
+              Как разрешить спор <br> в свою пользу?
+            </h1>
+          </div>
+          <div class="communication_button">
+            <button type="button" class="btn btn-outline-light">
+              Связатся
+            </button>
+          </div>
+          <div class="line">
+            <hr>
+          </div>
+          <div class="expiriense">
+            <h2>
+              Оцените наш опыт
+            </h2>
+            <p>
+              Ознакомьтесь с решениями судов где мы принимали участие по защите интересов клиентов
+            </p>
+            <button type="button" class="btn btn-primary">ПЕРЕЙТИ</button>
+          </div>
+          <div class="scrolling">
+            <p>
+              Листайте вниз,<br> там много интересного!
+            </p>
+            <a href="#second_section"><img src="icons/arrow.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <!-- Вторая секция -->
+    <section class="section second_section" id="second_section">
+      <div class="container">
+        <div class="row">
+          <div class="who_are_we_text col-lg-5 col-md-12" id="who_are_we">
+            <h2>
+              Кто мы?
+            </h2>
+            <p>
+              Если вы зашли на этот сайт то в большинстве случаев это связано с тем, что у Вас в наличии есть серьезные
+              проблемы требующие вмешательства юриста и скорее всего это все уже достаточно запущено.Почему так?
+              Нас не приучили своевременно обращаться к профессионалам,<br> <br> а самодеятельность или бездействие
+              приводит к
+              тому, что проблема, к моменту осознания необходимости обращения к профессионалу, уже выросла в
+              геометрической прогрессии.
+
+            </p>
+          </div>
+          <div class="who_are_we_images col-lg-7 col-md-12">
+            <div class="first_img">
+              <img src="img/handshake.jpg" alt="Constitution">
+            </div>
+            <div class="second_img">
+              <img src="img/lawyer at work.jpg" alt="Constitution">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Третья секция -->
+    <section class="section third_section">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="section_text">
+              <h2>
+                Области практики
+              </h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit fugiat accusantium facilis
+                magnam maiores fuga, tempora quos suscipit voluptate aut minus ipsa ex molestiae veniam velit quibusdam
+                maxime quas rerum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="why_are_we_carousel">
+          <div class="carousel_slide">
+            <img src="img/Хозяйственное право.jpg" alt="Хозяйственное право">
+            <div class="slide_text">
+              <h2>
+                Хозяйственное право
+              </h2>
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="carousel_slide"><img src="img/Земельное право.jpg" alt="Земельное право">
+            <div class="slide_text">
+              <h2>
+                Земельное право
+              </h2>
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="carousel_slide"><img src="img/Наследственное право.jpg" alt="Наследственное право">
+            <div class="slide_text">
+              <h2>
+                Наследственное право
+              </h2>
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="carousel_slide"><img src="img/Гражданское право.jpg" alt="Гражданское право">
+            <div class="slide_text">
+              <h2>
+                Гражданское право
+              </h2>
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="carousel_slide"><img src="img/Жилищное право.jpg" alt="Жилищное право">
+            <div class="slide_text">
+              <h2>
+                Жилищное право
+              </h2>
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div class="carousel_slide"><img src="img/Семейное право.jpg" alt="Семейное право">
+            <div class="slide_text">
+              <h2>
+                Семейное право
+              </h2>
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Четвертая секция -->
+    <section class="section fourth_section">
+      <div class="container">
+        <div class="row">
+          <div class="section_text">
+            <h2>
+              Почему мы?
+            </h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aliquam beatae quidem distinctio! Eum,
+              in voluptas! Sit accusantium nemo doloribus quidem blanditiis. A consequuntur nisi explicabo cum
+              architecto similique vitae?
+            </p>
+          </div>
+          <div class="row why_are_we_icons col-md-12">
+            <div class="col-6 col-lg-3 mb-5 pb-0 pb-lg-4 ">
+              <img src="img/hourglass.png" alt="">
+              <h4>Многолетний опыт</h4>
+            </div>
+            <div class="col-6 col-lg-3 mb-5 pb-0 pb-lg-4">
+              <img src="img/law-book.png" alt="">
+              <h4>Постоянная практика</h4>
+            </div>
+            <div class="col-6 col-lg-3 mb-5 pb-0 pb-lg-4">
+              <img src="img/agreement.png" alt="">
+              <h4>Доверие клиентов</h4>
+            </div>
+            <div class="col-6 col-lg-3 mb-5 pb-0 pb-lg-4">
+              <img src="img/contract-coverage.png" alt="">
+              <h4>Гарантия результата</h4>
+            </div>
+            <div class="col-6 col-lg-3 mb-5 mb-lg-0">
+              <img src="img/wall-clock.png" alt="">
+              <h4>Краткие сроки</h4>
+            </div>
+            <div class="col-6 col-lg-3 mb-5 mb-lg-0">
+              <img src="img/quality.png" alt="">
+              <h4>Качество</h4>
+            </div>
+            <div class="col-6 col-lg-3">
+              <img src="img/coin.png" alt="">
+              <h4>Доступные цены</h4>
+            </div>
+            <div class="col-6 col-lg-3">
+              <img src="img/opened-book-with-a-magnifier.png" alt="">
+              <h4>Индиводуальный подход</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Пятая секция -->
+    <section class="section fifth_section">
+      <div class="container">
+        <div class="row">
+          <div class="section_text">
+            <h2>
+              Отзывы
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus doloribus similique, expedita esse,
+              quam eveniet excepturi dolorem sit ad, quo neque! Cupiditate aspernatur inventore perspiciatis magni
+            </p>
+          </div>
+          <div class="reviews_carousel col-12 col-lg-10">
+            <div class="carousel_slide">
+              <img src="img/client.png" alt="">
+              <div>
+                <i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt maiores blanditiis vero tempore
+                  officiis commodi est, cum corporis possimus culpa debitis ratione temporibus aperiam explicabo,
+                  voluptates rem consequatur velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                  facere repellendus amet culpa animi aperiam est architecto maxime quos necessitatibus esse, alias
+                  dolorem, aliquid voluptatem sint soluta, tempora quibusdam in?
+                </i><br>
+                <p>Сергей Сергеевич</p>
+              </div>
+            </div>
+            <div class="carousel_slide">
+              <img src="img/client.png" alt="">
+              <div>
+                <i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt maiores blanditiis vero tempore
+                  officiis commodi est, cum corporis possimus culpa debitis ratione temporibus aperiam explicabo,
+                  voluptates rem consequatur velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                  facere repellendus amet culpa animi aperiam est architecto maxime quos necessitatibus esse, alias
+                  dolorem, aliquid voluptatem sint soluta, tempora quibusdam in?
+                </i><br>
+                <p>Сергей Сергеевич</p>
+              </div>
+            </div>
+            <div class="carousel_slide">
+              <img src="img/client.png" alt="">
+              <div>
+                <i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt maiores blanditiis vero tempore
+                  officiis commodi est, cum corporis possimus culpa debitis ratione temporibus aperiam explicabo,
+                  voluptates rem consequatur velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                  facere repellendus amet culpa animi aperiam est architecto maxime quos necessitatibus esse, alias
+                  dolorem, aliquid voluptatem sint soluta, tempora quibusdam in?
+                </i><br>
+                <p>Сергей Сергеевич</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Шестая секция -->
+    <section class="section sixth_section">
+      <div class="container">
+        <div class="row">
+          <div class="section_text">
+            <h2>
+              Связатся
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus doloribus similique, expedita esse,
+              quam eveniet excepturi dolorem sit ad, quo neque! Cupiditate aspernatur inventore perspiciatis magni
+            </p>
+          </div>
+          <div class="col-md-12 mt-4 mt-md-5">
+            <form action="php/mail.php" method="POST">
+              <div class="d-block d-md-flex">
+                <div class="form-group col-12 col-md-6 p-0">
+                  <label for="name">Ваше имя:</label>
+                  <input type="name" name="name" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group col-12 col-md-6 p-0 pr-md-0 pl-md-4">
+                  <label for="email1">E-mail:</label>
+                  <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea class="form-control" name="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-info col-12 col-sm-5 col-md-4 col-lg-3">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
